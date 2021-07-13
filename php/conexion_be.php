@@ -1,7 +1,9 @@
 <?php
 
   $conexion = mysqli_connect("localhost", "root", "", "login-register");
-
+  
+  
+  
   /*
   if($conexion){
       echo 'Conectado exitosamente a la base de datos';

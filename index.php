@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/estilos.css">
+    <h1><p class="italic">Welcome to Development Courses</p></h1>
 
 </head>
 
@@ -16,7 +17,17 @@
     <main>
 
         <div class="contenido">
-
+        <div class="banner">
+        <div class="navbar">
+            <img src="images/—Pngtree—black quill feather pen with_5157648.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="register.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
             <div class="caja__trasera">
                 <div class="caja__trasera-login">
                     <h3>¿Ya tenes una cuenta?</h3>
@@ -32,12 +43,12 @@
             </div>
 
 
-            <div class="contenedor__login-register">
+            <div class="contenedor__login-register"><
 
-                <form action="" class="formulario__login">
+                <form action="php/login_usuario_be.php" method= "POST" class="formulario__login">
                     <h2>Iniciar sesion</h2>
-                    <input type="text" placeholder="Correo electronico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Correo electronico" name="correo" >
+                    <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Entrar</button>
                 </form>
 
@@ -45,7 +56,7 @@
                     <h2>Registrarse</h2>
                     <input type="text" placeholder="Nombre" name="nombre">
                     <input type="text" placeholder="Apellido" name="apellido">
-                    <input type="text" placeholder="Correo electronico" name="correo">
+                    <input type="email" placeholder="Correo electronico" name="correo">
                     <input type="password" placeholder="Contraseña" name="contrasena">
                     <input type="text" placeholder="Usuario" name="usuario">
 
